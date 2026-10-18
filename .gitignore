@@ -1,0 +1,27 @@
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary exports and logs
+*.log
+*.tmp
+*.bak
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+*service-account*.json
+*credentials*.json
+
+# Python (if validation scripts are added later)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Power BI temporary/lock files
+~$*.pbix
+*.pbit.lock
